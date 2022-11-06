@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Navbar from './components/navbar';
+import Footer from './components/footer';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -9,6 +10,7 @@ import {
 import './styles/index.css';
 import Inicio from './inicio';
 import Info from './info';
+
 
 const router = createBrowserRouter([
   {
@@ -26,5 +28,6 @@ root.render(
   <React.StrictMode>
     <Navbar/>
     <RouterProvider router={router} />
+    <Footer/>
   </React.StrictMode>
 );
