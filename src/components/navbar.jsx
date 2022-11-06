@@ -10,7 +10,7 @@ const Navbar = () => {
     }
   }
   return (
-    <div className='bg-secundaria h-[60px] flex justify-between px-4 items-center'>
+    <div className='bg-quarta h-[60px] flex justify-between px-4 items-center'>
         <img src="./logo.png" alt="logo" className='h-[60%]'/>
         <ul className='hidden md:flex text-white gap-8 items-center h-full'>
             <li className='hover:scale-110'><a href='/'>Inicio</a></li>

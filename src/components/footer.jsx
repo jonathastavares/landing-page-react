@@ -2,8 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div>
-           <div className="bg-gray-200 h-full w-full flex justify-around py-10 text-xs " >
+        <div className="bg-gray-200 w-full flex justify-around pb-4 pt-12 text-xs absolute bottom-0" >
                 <ul>
                     <li><a href="#">Condições</a></li>
                     <li><a href="#">Politica de cookies</a></li>
@@ -25,7 +24,6 @@ const Footer = () => {
                         <button className="bg-black w-20 h-7 rounded">Enviar</button>
                     </div>
                 </form>
-           </div>
         </div>
     );
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import Newsletter from "./components/newsletter";
+import Banner from "./components/banner"
 
 const Inicio = () => {
     return(
         <div>
-            <Newsletter />
+            <Banner/>
         </div>
     );
 }
