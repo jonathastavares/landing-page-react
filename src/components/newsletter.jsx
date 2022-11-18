@@ -6,7 +6,7 @@ const Newsletter = () => {
             <section className="py-10 bg-white overflow-hidden">
   <div className="container px-4 mx-auto">
     <div className="text-center max-w-xl mx-auto">
-      <div className="mb-6 relative mx-auto w-16 h-16 bg-secundaria rounded-full">
+      <div className="mb-6 relative mx-auto w-16 h-16 bg-primaria rounded-full">
         <img className="absolute top-0 left-0" src="flaro-assets/images/applications/blur.svg" alt="" />
         <div className="absolute left-1/2 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
           <svg width="40" height="40" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@ const Newsletter = () => {
         <div className="mb-5">
           <input className="px-4 py-3 w-full text-gray-500 font-medium text-center placeholder-gray-500 outline-none border border-gray-300 rounded-lg focus:ring focus:ring-indigo-300" id="newsletterInput1-2" type="text" placeholder="Email address" />
         </div>
-        <button className="py-4 px-6 w-full text-white font-semibold border border-terceira rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-secundaria hover:bg-terceira transition ease-in-out duration-200" type="button">Subscribe Now</button>
+        <button className="py-4 px-6 w-full text-white font-semibold border border-terceira rounded-xl shadow-4xl focus:ring focus:primaria bg-secundaria hover:bg-terceira transition ease-in-out duration-200" type="button">Subscribe Now</button>
       </form>
       <div className="flex flex-wrap justify-center items-center -m-1.5">
         <div className="w-auto p-1.5">

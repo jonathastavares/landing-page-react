@@ -6,7 +6,7 @@ const Inicio = () => {
     return(
         <div>
             <Banner/>
-
+            <Newsletter/>
         </div>
     );
 }
