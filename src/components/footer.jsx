@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return(
-        <div className="bg-gray-200 w-full flex justify-around pb-4 pt-12 text-xs absolute bottom-0" >
+        <div className="bg-gray-200 w-full flex justify-around pb-4 pt-12 text-xs" >
                 <ul>
                     <li><a href="#">Condições</a></li>
                     <li><a href="#">Politica de cookies</a></li>

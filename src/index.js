@@ -9,7 +9,10 @@ import {
 } from "react-router-dom";
 import './styles/index.css';
 import Inicio from './inicio';
-import Info from './info';
+import Cursos from './cursos';
+import Cert from './cert';
+import Opo from './opo';
+import Login from './login';
 
 
 const router = createBrowserRouter([
@@ -18,9 +21,22 @@ const router = createBrowserRouter([
     element: <Inicio/>,
   },
   {
-    path: "/info",
-    element: <Info/>,
+    path: "/cursos",
+    element: <Cursos/>,
   },
+  {
+    path: "/cert",
+    element: <Cert/>,
+  },
+  {
+    path: "/opo",
+    element: <Opo/>,
+  },
+  {
+    path: "/login",
+    element: <Login/>,
+  },
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

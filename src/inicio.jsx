@@ -6,6 +6,7 @@ const Inicio = () => {
     return(
         <div>
             <Banner/>
+
         </div>
     );
 }
